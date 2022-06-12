@@ -1,16 +1,130 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-ExtraBoldItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-ExtraLightItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BiSoft";
+  src: url("/assets/fonts/SVN-Poppins-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+*:not(i) {
+  font-family: "BiSoft", sans-serif !important;
 }
