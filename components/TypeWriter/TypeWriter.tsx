@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 const TypeWriter = () => {
   return (
     <div
-      className="absolute top-1/2 left-1/2 px-8 py-4 min-w-[12rem] text-center"
+      className="mr-8 mb-8 px-8 py-2.5 min-w-[12rem] text-center relative z-10"
       style={{
         border: "10px solid transparent",
         borderImage: "url(/assets/images/sketch-border.svg) 8.8%",
