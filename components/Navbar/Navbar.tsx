@@ -8,7 +8,7 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-dark shadow">
+    <Disclosure as="nav" className="bg-dark shadow z-10 relative bg-opacity-20">
       {({ open }) => (
         <>
           <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
