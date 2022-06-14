@@ -57,7 +57,7 @@ const Product = () => {
           <span className="relative w-fit">
             <img ref={imgRef} alt="image 1" src="/assets/images/bivps.png" />{" "}
             <button
-              className="flex items-center absolute bg-orange-300 rounded-full px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200 bottom-4 right-4 md:-right-4"
+              className="flex items-center absolute bg-orange-300 rounded-full px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200 bottom-4 right-4"
               style={{
                 boxShadow: "0px 5px 30px -5px rgba(253,186,116,0.8)",
               }}
@@ -91,7 +91,7 @@ const Product = () => {
 export default Product;
 function ContentPlaceholder({ contentRef, wrapperRef, imgRef, titleRef }: any) {
   return (
-    <div className="">
+    <div className="hidden md:block">
       {contentRef.current != null &&
       wrapperRef.current != null &&
       imgRef.current != null &&
