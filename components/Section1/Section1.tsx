@@ -9,7 +9,7 @@ const defaultVariant = {
 
 const Section1 = () => {
   const [ref, inView] = useInView({
-    threshold: 0.8,
+    threshold: 0.5,
   });
   const control = useAnimation();
   useEffect(() => {
