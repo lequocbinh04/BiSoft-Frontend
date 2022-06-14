@@ -4,14 +4,16 @@ import TypeWriter from "../TypeWriter";
 const HeroSection = () => {
   return (
     <>
-      <div className="flex items-center max-w-[85rem] mx-auto justify-between relative z-10 mt-48 px-8">
+      <div className="md:flex items-center max-w-[85rem] mx-auto justify-between relative z-10 mt-20 md:mt-48 px-8">
         <div className="relative z-10">
           <div className="flex">
             <TypeWriter />
-            <h1 className="text-8xl font-bold">BiSoft</h1>
+            <h1 className="text-5xl md:text-8xl font-bold">
+              <span className="text-orange-300">Bi</span>Soft
+            </h1>
           </div>
           <div className="mt-6 text-slate-300 max-w-3xl relative z-10">
-            Với sứ mệnh tạo nên nhữn g sản phẩm có giá trị tốt nhất cho cộng
+            Với sứ mệnh tạo nên những sản phẩm có giá trị tốt nhất cho cộng
             đồng. Bạn có ý tưởng độc đáo thú vị? Hãy liên hệ cho chúng tôi.
           </div>
           <button className="mt-6 bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark focus:outline-none hover:bg-orange-400 transition-all duration-200 flex items-center relative z-10">
@@ -19,25 +21,27 @@ const HeroSection = () => {
             <RiIcon className="ml-1 text-dark" name="arrow-right-up-line" />
           </button>
         </div>
-        <div className="ml-16 relative">
+        <div className="md:ml-16 relative mt-8 md:mt-0">
           <img
             alt=""
             src="/assets/images/line.svg"
-            className="absolute z-[1] top-0 left-0 w-full"
+            className="absolute z-[-1] top-0 left-0 w-full"
             style={{
               transform: "translate(-70%,-5%)",
             }}
           />
-          <img
-            alt=""
-            src="/assets/images/star.svg"
-            className="absolute z-[1] -top-24 right-14 min-w-max"
-          />
-          <img
-            alt=""
-            src="/assets/images/star.svg"
-            className="absolute z-[1] bottom-14 -right-28 min-w-max"
-          />
+          <div className="md:block hidden">
+            <img
+              alt=""
+              src="/assets/images/star.svg"
+              className="absolute z-[-1] -top-24 right-14 min-w-max"
+            />
+            <img
+              alt=""
+              src="/assets/images/star.svg"
+              className="absolute z-[-1] bottom-14 -right-28 min-w-max"
+            />
+          </div>
 
           <img
             alt=""

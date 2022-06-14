@@ -19,19 +19,19 @@ export default function Navbar() {
                     className="block lg:hidden h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
-                    alt="Workflow"
                   /> */}
+                  <img
+                    className="hidden lg:block h-12 mr-2 w-auto"
+                    src="/assets/images/logo.svg"
+                    alt="BiSoft"
+                  />
                   <h1 className="font-bold text-3xl">
                     <span className="text-orange-300">Bi</span>Soft
                   </h1>
                 </div>
                 <div className="hidden sm:ml-12 sm:flex sm:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
-                  <a
+                  {/* <a
                     href="#"
                     className="border-orange-300 text-white inline-flex items-center px-1 pt-1 border-b-2 text-md"
                   >
@@ -54,34 +54,40 @@ export default function Navbar() {
                     className="border-transparent text-gray-400 hover:text-gray-200 inline-flex items-center px-1 pt-1 border-b-2 text-md"
                   >
                     Menu 4
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:items-center">
-                <button
+                <a
+                  href="https://www.facebook.com/lequocbinh.04/"
+                  target="_blank"
                   type="button"
-                  className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark focus:outline-none hover:bg-orange-400 transition-all duration-200"
+                  className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200"
+                  rel="noreferrer"
                 >
                   Contact me
-                </button>
+                </a>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
-                  )}
+                  <a
+                    href="https://www.facebook.com/lequocbinh.04/"
+                    target="_blank"
+                    type="button"
+                    className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200"
+                    rel="noreferrer"
+                  >
+                    Contact me
+                  </a>
                 </Disclosure.Button>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          {/* <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
-              {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+             
               <Disclosure.Button
                 as="a"
                 href="#"
@@ -160,7 +166,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
             </div>
-          </Disclosure.Panel>
+          </Disclosure.Panel> */}
         </>
       )}
     </Disclosure>
