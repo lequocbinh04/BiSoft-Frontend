@@ -7,6 +7,7 @@ import Head from "next/head";
 import Section1 from "../components/Section1";
 import Statistic from "../components/Statistic";
 import Service from "../components/Service";
+import Product from "../components/Product";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         <Section1 />
         <Statistic />
         <Service />
+        <Product />
       </div>
     </>
   );

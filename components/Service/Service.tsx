@@ -34,7 +34,7 @@ const Service = () => {
       </h1>
       <div className="md:grid md:grid-cols-2 mt-12 md:gap-x-14">
         <div>
-          <div className="bg-[#353F5B] py-12 px-6 rounded-tl-[3rem]">
+          <div className="bg-[#353F5B] py-12 px-8 rounded-tl-[3rem]">
             <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
             <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
             <div className="mt-4">
@@ -53,7 +53,7 @@ const Service = () => {
               <i className="ml-1 ri-arrow-right-up-line"></i>
             </a>
           </div>
-          <div className="bg-[#353F5B] py-12 px-6 rounded-bl-[3rem] mt-8">
+          <div className="bg-[#353F5B] py-12 px-8 rounded-bl-[3rem] mt-8">
             <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
             <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
             <div className="mt-4">
@@ -74,7 +74,7 @@ const Service = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className="bg-[#353F5B] py-12 px-6 rounded-tr-[3rem]">
+          <div className="bg-[#353F5B] py-12 px-8 rounded-tr-[3rem]">
             <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
             <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
             <div className="mt-4">
@@ -93,7 +93,7 @@ const Service = () => {
               <i className="ml-1 ri-arrow-right-up-line"></i>
             </a>
           </div>
-          <div className="bg-[#353F5B] py-12 px-6 rounded-br-[3rem] mt-8">
+          <div className="bg-[#353F5B] py-12 px-8 rounded-br-[3rem] mt-8">
             <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
             <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
             <div className="mt-4">

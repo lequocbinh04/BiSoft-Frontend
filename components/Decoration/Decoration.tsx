@@ -19,7 +19,7 @@ const Decoration = () => {
         }}
       ></div>
       <div
-        className="top-full left-0 absolute w-80 h-80 bg-[#22B5BE] bg-opacity-50 rounded-full z-[-1]"
+        className="top-[100vh] left-0 absolute w-80 h-80 bg-[#22B5BE] bg-opacity-50 rounded-full z-[-1]"
         style={{
           filter: "blur(90px)",
           transform: "translateY(-100%)",
