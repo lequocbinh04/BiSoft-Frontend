@@ -61,7 +61,6 @@ export default function Navbar() {
                 <a
                   href="https://www.facebook.com/lequocbinh.04/"
                   target="_blank"
-                  type="button"
                   className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200"
                   rel="noreferrer"
                 >
@@ -74,8 +73,7 @@ export default function Navbar() {
                   <a
                     href="https://www.facebook.com/lequocbinh.04/"
                     target="_blank"
-                    type="button"
-                    className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200"
+                    className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200 block"
                     rel="noreferrer"
                   >
                     Contact me
@@ -135,7 +133,6 @@ export default function Navbar() {
                   </div>
                 </div>
                 <button
-                  type="button"
                   className="ml-auto flex-shrink-0 bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   <span className="sr-only">View notifications</span>

@@ -46,8 +46,7 @@ const Service = () => {
             <a
               href="https://facebook.com/lequocbinh.04"
               target="_blank"
-              type="button"
-              className="mx-auto mt-6 border-2 border-orange-300 rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
+              className="mx-auto mt-6 border-2 border-orange-300 rounded-full md:rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
               rel="noreferrer"
             >
               Liên hệ ngay
@@ -66,8 +65,7 @@ const Service = () => {
             <a
               href="https://facebook.com/lequocbinh.04"
               target="_blank"
-              type="button"
-              className="mx-auto mt-6 border-2 border-orange-300 rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
+              className="mx-auto mt-6 border-2 border-orange-300 rounded-full md:rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
               rel="noreferrer"
             >
               Liên hệ ngay
@@ -88,8 +86,7 @@ const Service = () => {
             <a
               href="https://facebook.com/lequocbinh.04"
               target="_blank"
-              type="button"
-              className="mx-auto mt-6 border-2 border-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark  bg-orange-300 focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
+              className="mx-auto mt-6 border-2 border-orange-300 rounded-full md:rounded-lg px-5 py-2.5 font-medium text-dark  bg-orange-300 focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
               rel="noreferrer"
             >
               Liên hệ ngay
@@ -108,8 +105,7 @@ const Service = () => {
             <a
               href="https://facebook.com/lequocbinh.04"
               target="_blank"
-              type="button"
-              className="mx-auto mt-6 border-2 border-orange-300 rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
+              className="mx-auto mt-6 border-2 border-orange-300 rounded-full md:rounded-lg px-5 py-2.5 font-medium text-white focus:outline-none hover:bg-orange-300 transition-all duration-200 inline-flex items-center relative z-10"
               rel="noreferrer"
             >
               Liên hệ ngay
