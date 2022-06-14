@@ -25,7 +25,12 @@ export default function Navbar() {
                     src="/assets/images/logo.svg"
                     alt="BiSoft"
                   />
-                  <h1 className="font-bold text-3xl">
+                  <img
+                    className="block lg:hidden h-12 w-auto"
+                    src="/assets/images/logo.svg"
+                    alt="BiSoft"
+                  />
+                  <h1 className="font-bold text-3xl hidden lg:block">
                     <span className="text-orange-300">Bi</span>Soft
                   </h1>
                 </div>
