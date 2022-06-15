@@ -1,6 +1,6 @@
 import RiIcon from "../RiIcon";
 import TypeWriter from "../TypeWriter";
-
+import LazyLoad from "react-lazyload";
 const HeroSection = () => {
   return (
     <>
@@ -16,10 +16,13 @@ const HeroSection = () => {
             Với sứ mệnh tạo nên những sản phẩm có giá trị tốt nhất cho cộng
             đồng. Bạn có ý tưởng độc đáo thú vị? Hãy liên hệ cho chúng tôi.
           </div>
-          <button className="mt-6 bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark focus:outline-none hover:bg-orange-400 transition-all duration-200 flex items-center relative z-10">
+          <a
+            href="#project"
+            className="mt-6 bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark focus:outline-none hover:bg-orange-400 transition-all duration-200 inline-flex items-center relative z-10"
+          >
             Các dự án của chúng tôi{" "}
             <RiIcon className="ml-1 text-dark" name="arrow-right-up-line" />
-          </button>
+          </a>
         </div>
         <div className="md:ml-16 relative mt-8 md:mt-0">
           <img
@@ -42,12 +45,13 @@ const HeroSection = () => {
               className="absolute z-[-1] bottom-14 -right-28 min-w-max"
             />
           </div>
-
-          <img
-            alt=""
-            src="/assets/images/hero-image.png"
-            className="w-full h-full relative z-10"
-          />
+          <LazyLoad>
+            <img
+              alt=""
+              src="/assets/images/hero-image.png"
+              className="w-full h-full relative z-10"
+            />
+          </LazyLoad>
         </div>
         {/* 
         <img

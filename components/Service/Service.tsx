@@ -35,13 +35,12 @@ const Service = () => {
       <div className="md:grid md:grid-cols-2 mt-12 md:gap-x-14">
         <div>
           <div className="bg-[#353F5B] py-12 px-8 rounded-tl-[3rem]">
-            <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
-            <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
-            <div className="mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
-              consequat nunc id purus pretium sagittis. Nulla ridiculus nullam
-              bibendum luctus viverra. Eu pellentesque sem sed platea diam
-              dignissim duis purus.
+            <RiIcon name="global-line" className="text-orange-300 text-4xl" />
+            <h2 className="text-2xl font-bold mt-3">Lập trình website</h2>
+            <div className="mt-4 leading-7">
+              Đáp ứng nhu cầu ngày càng nhiều của cộng đồng, BiSoft mang đến
+              dịch vụ thiết kế / code website theo yêu cầu của khách hàng. Để
+              tiếp tục hãy liên hệ ngay với chúng tôi bằng nút bên dưới nhé :3
             </div>
             <a
               href="https://facebook.com/lequocbinh.04"
@@ -55,12 +54,12 @@ const Service = () => {
           </div>
           <div className="bg-[#353F5B] py-12 px-8 rounded-bl-[3rem] mt-8">
             <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
-            <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
-            <div className="mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
-              consequat nunc id purus pretium sagittis. Nulla ridiculus nullam
-              bibendum luctus viverra. Eu pellentesque sem sed platea diam
-              dignissim duis purus.
+            <h2 className="text-2xl font-bold mt-3">Lập trình extension</h2>
+            <div className="mt-4 leading-7">
+              Nếu bạn cần một công cụ thực thi một hành vi tự động trên chính
+              trình duyệt của mình hay một công cụ giúp bạn sử dụng website tiện
+              lợi dễ dàng hơn, BiSoft có thể giúp bạn. Liên hệ với tụi mình ngay
+              nhé!
             </div>
             <a
               href="https://facebook.com/lequocbinh.04"
@@ -75,13 +74,13 @@ const Service = () => {
         </div>
         <div className="mt-12">
           <div className="bg-[#353F5B] py-12 px-8 rounded-tr-[3rem]">
-            <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
-            <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
+            <RiIcon name="pencil-line" className="text-orange-300 text-4xl" />
+            <h2 className="text-2xl font-bold mt-3">
+              Thiết kế giao diện web/app
+            </h2>
             <div className="mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
-              consequat nunc id purus pretium sagittis. Nulla ridiculus nullam
-              bibendum luctus viverra. Eu pellentesque sem sed platea diam
-              dignissim duis purus.
+              Nếu bạn muốn có một giao diện web hay app đẹp tuyệt vời, bạn có
+              thể liên hệ với BiSoft ngay dễ được tư vấn kĩ hơn nhé!
             </div>
             <a
               href="https://facebook.com/lequocbinh.04"
@@ -94,8 +93,11 @@ const Service = () => {
             </a>
           </div>
           <div className="bg-[#353F5B] py-12 px-8 rounded-br-[3rem] mt-8">
-            <RiIcon name="compass-line" className="text-orange-300 text-4xl" />
-            <h2 className="text-2xl font-bold mt-3">Tạo website</h2>
+            <RiIcon
+              name="pencil-ruler-2-line"
+              className="text-orange-300 text-4xl"
+            />
+            <h2 className="text-2xl font-bold mt-3">Xây dựng Branding</h2>
             <div className="mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
               consequat nunc id purus pretium sagittis. Nulla ridiculus nullam

@@ -1,6 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
+import LazyLoad from "react-lazyload";
 
 const defaultVariant = {
   end: { opacity: 1 },
@@ -32,19 +33,19 @@ const Section1 = () => {
           Mang đến trải nghiệm <br className="hidden md:block" /> tối ưu
         </h1>
         <div className="mt-4 text-slate-300 max-w-2xl  text-center md:text-left  relative z-10">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&#39;s standard dummy text
-          industry. Lorem Ipsum has been the industry&#39;s standard dummy text
-          industry. Lorem Ipsum has been the industry&#39;s standard dummy text
-          ever since the 1500s,
+          Với đội ngũ chuyên nghiệp, chúng tôi sẽ giúp những ý tưởng của bạn trở
+          thành một web/app hoàn hảo. Để xem chi tiết hơn về những dịch vụ mà
+          BiSoft hỗ trợ, bạn có thể xem ngay bên dưới.
         </div>
       </div>
       <div className="mt-8 md:mt-0">
-        <img
-          alt=""
-          src="/assets/images/hihi.png"
-          className="min-w-full md:min-w-full"
-        />
+        <LazyLoad>
+          <img
+            alt=""
+            src="/assets/images/hihi.png"
+            className="min-w-full md:min-w-full"
+          />
+        </LazyLoad>
       </div>
     </motion.div>
   );

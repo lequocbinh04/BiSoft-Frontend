@@ -9,7 +9,7 @@ import Statistic from "../components/Statistic";
 import Service from "../components/Service";
 import Product from "../components/Product";
 import Footer from "../components/Footer";
-
+import LazyLoad from "react-lazyload";
 const Home: NextPage = () => {
   return (
     <>
@@ -21,12 +21,24 @@ const Home: NextPage = () => {
       <div className="bg-dark text-white min-h-screen relative z-10 overflow-x-hidden">
         <Navbar />
         <Decoration />
-        <HeroSection />
-        <Section1 />
-        <Statistic />
-        <Service />
-        <Product />
-        <Footer />
+        <LazyLoad>
+          <HeroSection />
+        </LazyLoad>
+        <LazyLoad>
+          <Section1 />
+        </LazyLoad>
+        <LazyLoad>
+          <Statistic />
+        </LazyLoad>
+        <LazyLoad>
+          <Service />
+        </LazyLoad>
+        <LazyLoad>
+          <Product />
+        </LazyLoad>
+        <LazyLoad>
+          <Footer />
+        </LazyLoad>
       </div>
     </>
   );

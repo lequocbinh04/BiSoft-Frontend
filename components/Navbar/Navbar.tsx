@@ -69,7 +69,7 @@ export default function Navbar() {
                   className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200"
                   rel="noreferrer"
                 >
-                  Contact me
+                  Liên hệ
                 </a>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
@@ -81,7 +81,7 @@ export default function Navbar() {
                     className="bg-orange-300 rounded-lg px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200 block"
                     rel="noreferrer"
                   >
-                    Contact me
+                    Liên hệ
                   </a>
                 </Disclosure.Button>
               </div>

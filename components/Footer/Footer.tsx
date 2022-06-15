@@ -15,7 +15,7 @@ const Footer = () => {
             <RiIcon name="facebook-circle-fill text-2xl" />
           </a>
           <a
-            href="https://www.facebook.com/lequocbinh.04"
+            href="https://github.com/lequocbinh04/BiSoft-Frontend"
             target="_blank"
             className="mr-2.5"
             rel="noreferrer"

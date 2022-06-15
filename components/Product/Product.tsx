@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import LazyLoad from "react-lazyload";
 const defaultVariant = {
   end: { opacity: 1 },
   start: { opacity: 0 },
@@ -31,6 +32,7 @@ const Product = () => {
       initial="start"
       animate={control}
       className="max-w-[85rem] mx-auto mt-12 md:mt-24 px-4 md:px-8"
+      id="project"
     >
       <h1 className="text-3xl font-bold text-center" ref={ref}>
         Các sản phẩm của BiSoft
@@ -55,7 +57,9 @@ const Product = () => {
       <div className="mt-8 grid md:grid-cols-2 gap-x-8 gap-y-8">
         <div className="flex flex-col" ref={wrapperRef}>
           <span className="relative w-fit">
-            <img ref={imgRef} alt="image 1" src="/assets/images/bivps.png" />{" "}
+            <LazyLoad>
+              <img ref={imgRef} alt="image 1" src="/assets/images/bivps.png" />
+            </LazyLoad>
             <button
               className="flex items-center absolute bg-orange-300 rounded-full px-5 py-2.5 font-medium text-dark outline-none border-0 hover:bg-orange-400 transition-all duration-200 bottom-4 right-4"
               style={{
@@ -78,12 +82,12 @@ const Product = () => {
             miễn phí! Đăng ký sử dụng dịch vụ ngay.
           </div>
         </div>
-        <ContentPlaceholder
+        {/* <ContentPlaceholder
           contentRef={contentRef}
           wrapperRef={wrapperRef}
           imgRef={imgRef}
           titleRef={titleRef}
-        />
+        /> */}
       </div>
     </motion.div>
   );
