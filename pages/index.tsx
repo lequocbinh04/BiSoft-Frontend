@@ -8,6 +8,7 @@ import Section1 from "../components/Section1";
 import Statistic from "../components/Statistic";
 import Service from "../components/Service";
 import Product from "../components/Product";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
         <link rel="shortcut icon" href="/assets/images/favicon.png" />
       </Head>
 
-      <div className="bg-dark text-white min-h-screen relative z-10 overflow-x-hidden pb-32">
+      <div className="bg-dark text-white min-h-screen relative z-10 overflow-x-hidden">
         <Navbar />
         <Decoration />
         <HeroSection />
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
         <Statistic />
         <Service />
         <Product />
+        <Footer />
       </div>
     </>
   );
